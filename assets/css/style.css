@@ -15,3 +15,49 @@ h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-image: url(/Basic-Portfolio/assets/images/dynamic-style.png);
+  margin-bottom: 40px;
+}
+header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-top: 5px;
+  border-bottom: 2px solid #dddddd;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #343a40;
+}
+footer p {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  bottom: 0px;
+}
+
+.centerblob {
+  background-color: #ffffff;
+  border: 2px solid #343a40;
+}
+
+#image {
+  float: left;
+  margin-right: 10px;
+}
+
+.upperborder {
+  border-top: 2px solid #dddddd;
+}
