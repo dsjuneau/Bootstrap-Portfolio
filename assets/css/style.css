@@ -51,13 +51,34 @@ footer p {
 .centerblob {
   background-color: #ffffff;
   border: 2px solid #343a40;
+  /* max-width: 960px; */
 }
 
 #image {
   float: left;
   margin-right: 10px;
+  width: 35%;
+  max-width: 160px;
 }
 
 .upperborder {
   border-top: 2px solid #dddddd;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* header {
+  max-width: 960px;
+  margin: 0 auto;
+} */
+
+.headerfix {
+  max-width: 960px;
+}
+
+form {
+  margin-bottom: 10px;
 }
