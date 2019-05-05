@@ -30,8 +30,19 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#">Scott Juneau</a>
+        <a href="https://github.com/dsjuneau" class="nav-link">Github</a>
+        <a
+          href="https://linkedin.com/in/d-scott-juneau-25200434"
+          class="nav-link"
+          >Linkedin</a
+        >
+        <a
+          href="https://docs.google.com/document/d/1vOI6cOaBe40hPZ-09wQbKg4e1l-2ovihDlhTt-cPeLQ/edit?usp=sharing"
+          class="nav-link"
+          >Resume</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -50,22 +61,22 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html"
+              <a class="nav-link" href="#about"
                 >About <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
     <main>
-      <div class="container centerblob">
+      <div class="container centerblob" id="about">
         <div class="row">
           <div class="col-12">
             <h1 class="about">About Me</h1>
@@ -99,6 +110,110 @@
               application became U.S. patent number 5,774,670. It was the first
               patent on cookies.
             </p>
+          </div>
+        </div>
+      </div>
+      <div class="container centerblob" id="portfolio">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="about">Portfolio</h1>
+          </div>
+          <div class="col-8 col-sm-6 col-lg-4">
+            <div class="imgport">
+              <img
+                src="assets/images/hangman.jpg"
+                alt="Scott Juneau"
+                class="img-fluid"
+              />
+              <p class="img-text">
+                <a href=" https://dsjuneau.github.io/Word-Guess-Game/"
+                  >Hangman</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="col-8 col-sm-6 col-lg-4">
+            <div class="imgport">
+              <img
+                src="assets/images/rpg.jpg"
+                alt="Scott Juneau"
+                class="img-fluid"
+              />
+              <p class="img-text img-text2">
+                <a href="https://dsjuneau.github.io/unit-4-game-part2/"
+                  >RPG Game</a
+                >
+              </p>
+              <p class="img-text">
+                <a href="https://dsjuneau.github.io/unit-4-game/">
+                  Jewel Game</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4"></div>
+          <div class="col-8 col-sm-6 col-lg-4">
+            <div class="imgport">
+              <img
+                src="assets/images/trivia.jpg"
+                alt="Scott Juneau"
+                class="img-fluid"
+              />
+              <p class="img-text">
+                <a href=" https://dsjuneau.github.io/TriviaGame/"
+                  >Trivia Game</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="col-8 col-sm-6 col-lg-4">
+            <div class="imgport">
+              <img
+                src="assets/images/widget.jpg"
+                alt="Scott Juneau"
+                class="img-fluid"
+              />
+              <p class="img-text">
+                <a href=" https://dsjuneau.github.io/gifTastic/"
+                  >Giftastic API</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4"></div>
+          <div class="col-8 col-sm-6 col-lg-4">
+            <div class="imgport">
+              <img
+                src="assets/images/rock.jpg"
+                alt="Scott Juneau"
+                class="img-fluid"
+              />
+              <p class="img-text">
+                <a href=" https://dsjuneau.github.io/RPS-Multiplayer/"
+                  >Rock Paper Scissors</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-8"></div>
+        </div>
+      </div>
+      <div class="container centerblob" id="contact">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="about">Contact Info</h1>
+          </div>
+
+          <div class="col-12">
+            <p>
+              Phone (858) 926-9982
+            </p>
+            <a id="bottom-spacer" href="mailto:dsjuneau@gmail.com"
+              >dsjuneau@gmail.com</a
+            >
+            <br />
           </div>
         </div>
       </div>

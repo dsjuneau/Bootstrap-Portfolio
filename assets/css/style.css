@@ -4,7 +4,8 @@ html {
 }
 
 body {
-  background-image: url(/Basic-Portfolio/assets/images/dynamic-style.png);
+  background-image: url(../images/dynamic-style.png);
+
   margin-bottom: 40px;
 }
 header {
@@ -74,4 +75,20 @@ form {
 
 .img-text2 {
   bottom: 50px;
+}
+
+#about {
+  margin-top: 70px;
+}
+
+#portfolio {
+  margin-top: 50px;
+}
+
+#contact {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#bottom-spacer {
+  margin-bottom: 10px;
 }
